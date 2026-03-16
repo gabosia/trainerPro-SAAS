@@ -118,8 +118,9 @@ graph TD
     J -- "Generates" --> J2[Reports & Analytics]
     J -- "Handles" --> J3[Automated Notifications]
 
-J1 -- "Integrates with" --> K["Payment Gateway (e.g., Stripe)"]
-    Subgraph TrainerPro Core
+    J1 -- "Integrates with" --> K["Payment Gateway (e.g., Stripe)"]
+
+    subgraph TrainerPro Core
         C
         D
         E
@@ -128,12 +129,11 @@ J1 -- "Integrates with" --> K["Payment Gateway (e.g., Stripe)"]
         H
         I
         J
-    End
+    end
 
-    Subgraph External Services
+    subgraph External Services
         K
-    End
-```
+    end
 
 **5. Future Considerations**
 
