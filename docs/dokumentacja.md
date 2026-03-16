@@ -134,7 +134,7 @@ graph TD
     subgraph External Services
         K
     end
-
+...
 **5. Future Considerations**
 
 *   **Mobile Native Apps:** Develop dedicated iOS and Android applications for an even more seamless client and trainer experience.
